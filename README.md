@@ -12,7 +12,7 @@ The provided Python script is designed to assist in the enumeration of subdomain
     The script sets the DNS query type to "A" using the tp variable. This type corresponds to querying for address records (A records) which translate domain names to IP addresses.
 
     Reading Subdomains from a Text File:
-    The script opens and reads the contents of a text file located at "/home/kali/sublist.txt." Each line in this file is considered a subdomain, and these subdomains are stored in the subdominios list.
+    The script opens and reads the contents of a text file located at "/home/sublist.txt." Each line in this file is considered a subdomain, and these subdomains are stored in the subdominios list.
 
     Iterating Through Subdomains and Performing DNS Queries:
         For each subdomain in the subdominios list, the script enters a try-except block.
