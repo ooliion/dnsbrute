@@ -3,7 +3,7 @@ import dns.resolver
 host =input("host alvo: ")
 tp ="A"
 res = dns.resolver.Resolver()
-arquivo = open("/home/kali/sublist.txt","r")
+arquivo = open("/home/sublist.txt","r")
 subdominios = arquivo.read().splitlines()
 
 for subdominio in subdominios:
